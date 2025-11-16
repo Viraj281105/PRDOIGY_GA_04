@@ -12,8 +12,6 @@ After a 200-epoch training run, the model successfully learned to generate reali
 * **Output:** The "Generated Image" (the model's prediction)
 * **Ground Truth:** The "Real (Target) Image" (the original photo)
 
-![Final Results Grid](outputs/epoch_200_results.jpg)
-*(Note: You will need to save one of your output grids as `epoch_200_results.jpg` in an `outputs` folder, or update this link.)*
 
 ### Final Loss Graph
 
@@ -21,8 +19,6 @@ The final loss graph shows a healthy and stable training process.
 * **G Loss (Generator):** This loss remains relatively high because it is dominated by the **L1 Loss** (multiplied by a `LAMBDA` of 100), which forces the generator to be pixel-accurate.
 * **D Loss (Discriminator):** This loss remains low and stable, indicating the discriminator became a strong critic, which is necessary for generating high-quality, realistic images.
 
-![Final Loss Graph](outputs/loss_graph.png)
-*(Note: You will need to save your loss graph as `loss_graph.png` in an `outputs` folder, or update this link.)*
 
 ---
 
